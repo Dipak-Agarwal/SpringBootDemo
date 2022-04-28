@@ -1,0 +1,9 @@
+com/example/SpringAuto/libraries/WebDriverLibrary.class
+com/example/SpringAuto/SpringAutoApplication.class
+com/example/SpringAuto/models/TestUserDetails.class
+com/example/SpringAuto/models/UserDetails.class
+com/example/SpringAuto/libraries/DriverScopeConfig.class
+com/example/SpringAuto/libraries/DriverScope.class
+com/example/SpringAuto/libraries/DriverScopePostProcessor.class
+com/example/SpringAuto/Car.class
+com/example/SpringAuto/libraries/RemoteWebDriverFactory.class
