@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="36.425">
+    <testcase classname="Login Feature" name="Login with correct username and password" time="24.351">
+        <system-out><![CDATA[Given the user clicks on login link on the home page........................passed
+When the user enters the following for login................................passed
+And the user clicks on the login button.....................................passed
+Then the user should navigate to the home page as a logged in user..........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Feature" name="Login with correct username and password and verify app behavior" time="30.541">
+        <system-out><![CDATA[Given the user clicks on login link on the home page........................passed
+When the user enters the following for login................................passed
+And the user clicks on the login button.....................................passed
+Then the user should navigate to the home page as a logged in user..........passed
+When the user extracts the information of the first employee on the employee details page.passed
+And the user increases the salary of that employee by 500...................passed
+Then the salary of that employee should be increased by 500 on the employee details page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Feature" name="Login with correct username and password" time="23.266">
+        <system-out><![CDATA[Given the user clicks on login link on the home page........................passed
+When the user enters the following for login................................passed
+And the user clicks on the login button.....................................passed
+Then the user should navigate to the home page as a logged in user..........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Feature" name="Login with correct username and password and verify app behavior" time="31.884">
+        <system-out><![CDATA[Given the user clicks on login link on the home page........................passed
+When the user enters the following for login................................passed
+And the user clicks on the login button.....................................passed
+Then the user should navigate to the home page as a logged in user..........passed
+When the user extracts the information of the first employee on the employee details page.passed
+And the user increases the salary of that employee by 500...................passed
+Then the salary of that employee should be increased by 500 on the employee details page.passed
+]]></system-out>
+    </testcase>
+</testsuite>

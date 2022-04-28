@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10" configfailurepolicy="skip" parallel="tests">
+<!--    <test name="E2E Test of EAAPP">-->
+<!--        <classes>-->
+<!--            <class name="com.example.SpringAuto.SpringTestNGTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="E2E Test of EAAPP with Cucumber">
+        <classes>
+            <class name="com.example.SpringAuto.runner.TestRunner"></class>
+        </classes>
+    </test>
+<!--    <test name="E2E Test of EAAPP 2">-->
+<!--        <classes>-->
+<!--            <class name="com.example.SpringAuto.SpringTestNGTest_Dup"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
