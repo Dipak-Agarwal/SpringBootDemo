@@ -137,7 +137,7 @@
                                 <param>**/*.json</param>
                             </jsonFiles>
                             <!-- optional, defaults to outputDirectory if not specified -->
-                            <classificationDirectory>src/test/java/com/example/SpringAuto/classifications</classificationDirectory>
+                            <!--<classificationDirectory>src/test/java/com/example/SpringAuto/classifications</classificationDirectory>-->
                             <classificationFiles>
                                 <!-- supports wildcard or name pattern -->
                                 <param>sample.properties</param>
