@@ -41,7 +41,11 @@ public class RemoteWebDriverFactory {
     @ConditionalOnProperty(name = "browser", havingValue = "firefox")
     @Scope("driverscope")
     public WebDriver getRemoteWebDriverForFirefox() {
+//        FirefoxOptions firefoxOptions = new FirefoxOptions();
+//        firefoxOptions.addArguments("--headless");
 //        return WebDriverManager.firefoxdriver().remoteAddress(gridUrl).create();
+//        DesiredCapabilities desiredCapabilities = DesiredCapabilities.firefox();
+//        firefoxOptions.merge(desiredCapabilities);
         return new RemoteWebDriver(gridUrl, DesiredCapabilities.firefox());
     }
 
